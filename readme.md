@@ -12,3 +12,12 @@ The backend is stored in the backend directory. First, create your own virtual e
 
 ## Frontend
 The frontend is stored in the frontend directory. You may need to use npm install again, but barring any missing packages, this can be run with npm start
+
+Screenshots
+------------
+
+<p float="left">
+  <img src="https://github.com/talpert022/SongRater/blob/main/screenshots/screenshot1.png" width="300" height = "600" />
+  <img src="https://github.com/talpert022/SongRater/blob/main/screenshots/screenshot2.png" width="300" height = "600" />
+  <img src="https://github.com/talpert022/SongRater/blob/main/screenshots/screenshot3.png" width="300" height = "600" />
+</p>
