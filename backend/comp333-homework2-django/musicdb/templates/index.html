@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h2>Home Page</h2>
+
+<a href="{% url 'user_create' %}" class="btn btn-outline-info">Register</a>
+<a href="{% url 'retrieve_ratings' %}" class="btn btn-outline-warning">Retrieve Reviews</a>
+<a href="{% url 'retrieve_years' %}" class="btn btn-outline-dark">Retrieve Songs by Year</a>
+{% endblock %}

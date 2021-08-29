@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h2>Register</h2>
+<form action="{% url 'user_create' %}" method="post">
+    {% csrf_token %}
+    
+    <div class="">
+        <label for="exampleInputPassword1">Username</label>
+        {{ form.username }}
+    </div>
+    <div class="">
+        <label for="exampleInputPassword1">Password</label>
+        {{ form.password }}
+
+    </div>
+    
+    <button type="" class="btn btn-success">Register</button>
+</form>
+{% endblock %}
